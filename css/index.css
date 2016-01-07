@@ -1,10 +1,33 @@
 body 
 {
-  background-color: #F5F5F5;
+    background-color: #F5F5F5;
+    margin: 15px 15px;
 }
 
 #kann
 {
     font-family: fantasy;
     color: darkgreen;
+}
+
+p
+{
+    font-family: serif;
+}
+
+#projectsList
+{
+    list-style-type: none;
+}
+.project
+{
+    background-color: cadetblue;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 100px;
 }
